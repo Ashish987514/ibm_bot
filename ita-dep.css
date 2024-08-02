@@ -1,0 +1,95 @@
+body.its_web {
+
+    }
+
+body.its_web #preloader{
+display:none!important;
+}
+img {
+	border: none;
+}
+.leftcurtain {
+	width: 50%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	position: fixed;
+	z-index: 1112;
+}
+    .rightcurtain {
+        width: 51%;
+        height: 100%;
+        right: 0px;
+        top: 0px;
+        position: fixed;
+        z-index: 1113;
+    }
+.rightcurtain img, .leftcurtain img {
+	width: 100%;
+	height: 100%;
+}
+.launch-logo {
+	margin: 0px auto;
+	padding-top: 112px;
+	color:#FFF;
+     text-align: center;
+        background: #4f3722 url('/content/dam/homeportal/intelligence-training-academy/common-images/darkcurtain.jpg') repeat-x;
+        background-size: 11% 116%;position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+    .launch-logo div.content {
+        border: 5px solid #E3BB1D;
+           height: 550px;
+        margin: 0 auto;
+        /*left: calc(50% - 200px);
+    top: calc(50% - 125px);*/
+        width: 970px;
+        padding: 10px;
+       background-color: #f5e8d5;
+    /* margin-left: 479px; */
+    margin-top: -106px;
+    text-align: center;    padding-top: 0;
+    }
+    .launch-logo div.content img{
+          width: auto!important;
+    max-width: 100%;
+    display: inline-block;
+    float: inherit!important;
+    }
+.launch-logo div.button{
+    background: #4f3722 url("/content/dam/homeportal/intelligence-training-academy/common-images/Launch.png") no-repeat scroll 0 0;
+    height: 44px;
+    margin: 0 auto;
+    padding: 0 10px;
+    /*left: calc(50% - 50px);
+    top: calc(50% - 25px);*/
+    width: 135px;
+}
+.launch-logo div.button:hover{
+    background: #4f3722 url("/content/dam/homeportal/intelligence-training-academy/common-images/Launch-Hover.png") no-repeat scroll 0 0;
+}
+.rope {
+	position: fixed;
+	top: -40px;
+	left: 70%;
+	z-index: 1114;
+}
+body.itaPopupTrue .leftcurtain,body.itaPopupTrue .rightcurtain,body.itaPopupTrue .launch-logo,body.itaPopupTrue .rope{
+display:none!important;
+}
+
+@media only screen and (max-width: 768px){
+.ita_box_cnt .new_section{
+    width: 100%!important;
+    height: auto;
+    margin-top: 50px;
+            }
+            .ita_dep .image {
+    float: left;
+    margin-right: 10px;
+                margin-bottom:20px;
+            }
+}

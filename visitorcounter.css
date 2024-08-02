@@ -1,0 +1,22 @@
+#visitorCounter {
+        background: #fff url(/content/dam/common/visitor-counter-bg.png) no-repeat;
+        width: 119px;
+        background-position: right;
+        height: 19px;
+        color: #000;
+        font-weight: 600;
+        letter-spacing: 6px;
+        text-align: right;
+        background-size: 100% 100%;
+        display: inline-block;
+        font-size: 15px;
+        line-height: 1.3;
+        font-family: arial;
+    }
+    .newcounter {
+        display: block;
+        margin-bottom: 12px;
+        font-size: 14px;
+        width: 100%;
+        color: #fff;
+}

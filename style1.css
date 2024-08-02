@@ -1,0 +1,656 @@
+#flexiselDemo3 {
+display:none;
+}
+
+.nbs-flexisel-container {
+    position:relative;
+    max-width:100%;
+}
+.nbs-flexisel-ul {
+    position:relative;
+    width:99999px;
+    margin:0px;
+    padding:0px;
+    list-style-type:none;   
+    text-align:center;  
+}
+
+.nbs-flexisel-inner {
+    overflow:hidden;
+    float:left;
+    width:100%;
+}
+
+.nbs-flexisel-item {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    position: relative;
+    line-height: 0px;
+}
+
+.nbs-flexisel-item img {
+    padding: 5px;
+    border: 1px solid #ddd;
+    background-color: rgba(255, 255, 255, .5);
+    width: 130px;
+    cursor: pointer;
+    height:80px;object-fit: contain;
+}
+
+
+.nbs-flexisel-item img:hover {
+    border:1px solid #00bcd4;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, .5);
+}
+
+
+/*** Navigation ***/
+
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+    width: 22px;
+    height: 22px; 
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    opacity: 0.5;
+}
+
+.nbs-flexisel-nav-left {
+    left: 10px;
+    background: url(/content/dam/homeportal/images/button-previous.png) no-repeat;
+}
+
+.nbs-flexisel-nav-right {
+    right: 5px;
+    background: url(/content/dam/homeportal/images/button-next.png) no-repeat;
+}
+
+/* rpa new css  */
+.rpa-banner {
+    width: 74%;
+    float: right;
+}
+    .new_section
+{
+    float: right;
+    width: 26%;
+    height: calc(100vh - 240px);
+}
+.new_section h3
+{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.new_section li
+{
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: solid 1px rgb(255 255 255 / 25%);
+}
+.new_section a
+{
+    display: inline-block;
+    font-weight: 600;
+}
+.new_section a:hover{
+ text-decoration: underline;
+}
+.new_section p
+{
+    color: #fff;
+    display: inline-block;
+    margin-left: 20px;
+    margin: 0;
+}
+.new_section ul{
+    margin: 0;
+    padding: 0;
+}
+.new_section .fa
+{
+    margin-right: 6px;
+}
+.courses,.ntf
+{
+    height: 50%; padding: 15px 12px;background: #a04101;
+    float: left;
+    width:100%;    overflow: hidden;
+}
+.ntf
+{    background: #EF9B0F;
+}
+.courses marquee,.ntf marquee
+{
+    height: 80%;
+    
+}
+.rpa-banner .flexslider .slides li
+{
+    height: calc(100vh - 240px);    background-size: 100% 100% !important;
+}
+.rpa-banner .cm-image-home img {
+    max-width: 195px!important;
+}
+.rpa-banner .cm-image-home
+    {
+        left:inherit;
+        right:0;
+    }
+.dep_links
+{
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+.dep_links li
+{
+    display: inline-block;
+    margin: 0 15px;
+}
+.dep_links li img{
+max-height: 120px;
+}
+.dep_links ul
+{
+    margin-bottom: 0;
+}
+.otherWebLink {
+    clear: both;
+    background: #fafafa;
+}
+.rpa-banner .flex-direction-nav
+{
+    display:none!important;
+}
+.navbar-right
+{
+    height:auto!important;
+}
+.navbar-default
+{
+    padding:5px 0;
+}
+.new_section h3,.new_section a
+{
+    color: #fff;
+}
+.new_section h3 a
+{
+    float: right;
+    font-size: 13px;
+    text-transform: capitalize;
+    line-height: 1.3;
+}
+.new_section h3
+{
+    margin-bottom: 20px;
+}
+.new_section .ntf h3,.new_section .ntf a,.new_section .ntf p {
+color:#000;
+        }
+.cm-image-home img {
+        max-width: 195px!important;
+}
+.new_hg_minst
+{
+    max-width: 180px!important;
+}
+.hide_txt
+{
+    display:none;
+}
+@media only screen and (max-width:768px)
+{
+    .new_section
+    {
+        height: 500px;
+    }.courses marquee, .ntf marquee {
+    height: 80%;
+}
+    .rpa-banner
+{
+    width: 100%;
+    float: left;
+}
+.new_section
+{
+    float: right;
+ width: 100%;
+    }
+  .up_courses
+{
+    float: left;
+    width: 100%;  position: relative;
+    z-index: 9;
+    padding-right: 0px;
+    margin-bottom: 30px;
+}
+.ntf
+{
+    float: left;
+    width: 100%;position: relative;
+    z-index: 9;
+
+}  .rpa-banner .cm-image-home img {
+    max-width: 130px!important;
+}
+    .new_section .table {
+    table-layout: auto;
+    }
+    .new_section
+    {padding: 0
+    }.view_all {
+    float: right;
+    margin-top: 0px;
+}
+    .padding-v-60 {
+    padding: 30px 0 30px 0;
+}
+.home-slide li
+{
+    background-position: center center!important;
+}
+.news .nav-tabs>li>a {
+    color: #fff;
+    background-color: #32c5d2;
+    border: 1px solid transparent;
+    border-radius: 0;
+    padding: 7px 15px;
+    font-size: 17px;
+}
+.chiranjeevi_logo
+{
+    display:none;
+}
+}
+.desk-hide{
+display:none;
+    }
+@media only screen and (max-width: 767px)
+{
+.rpa-banner .flexslider .slides li {
+    height: 300px;
+}
+                    .desk-hide{
+display:inline-block;
+    }
+                    .social-1 li{
+    margin: 5px 5px;
+                        }
+    .dep_links li
+    {
+        margin-bottom: 30px!important;
+    }
+            .main-slider,.main-slider .flexslider,.home-slide li {
+    height: 380px!important;
+}
+                .cm-image-home img {
+    max-width: 120px!important;
+}
+                .new_hg_minst {
+    max-width: 110px!important;
+}
+                .top-bar .pull-left
+        {
+            display:none;
+        }
+        .navbar-static-top ul.navbar-right > li:nth-child(1),.navbar-static-top ul.navbar-right > li:nth-child(2),.navbar-static-top ul.navbar-right > li:nth-child(2),
+    .navbar-static-top ul.navbar-right > li:nth-child(2),a.dropdown-toggle
+    {
+                display:none!important;
+            }
+li.dropdown.top-toggal-menu > ul.dropdown-menu
+            {
+                display: block!important;
+    position: static;
+    max-height: 400px;
+    overflow-y: scroll;
+            }
+ .navbar-static-top .navbar-right {
+    height: auto!important;
+    position: absolute;
+    width: 100%;
+    margin-top: 0;
+}
+                    .navbar-brand img
+                {
+                           max-width: 263px;
+    /*padding-left: 8px;
+    padding-top: 5px;*/
+                    }
+.dep_links li img {
+    max-height: 70px;
+}
+}
+@media only screen and (max-width: 567px)
+{
+.rpa-banner .flexslider .slides li {
+    height: 250px;
+}
+}
+
+
+.simply-scroll-container { /* Container DIV - automatically generated */
+	position: relative;
+}
+
+	.simply-scroll-clip { /* Clip DIV - automatically generated */
+		position: relative;
+		overflow: hidden;
+	}
+
+	.simply-scroll-list { /* UL/OL/DIV - the element that simplyScroll is inited on */
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+		.simply-scroll-list li {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+		}
+	
+		.simply-scroll-list li img {
+			border: none;
+			display: block;
+		}
+	
+	.simply-scroll-btn {
+		    position: absolute;
+    width: 32px;
+    height: 32px;
+    z-index: 3;
+    cursor: pointer;
+    top: -51px;
+    right: 50px!important;
+	}
+
+	.simply-scroll-btn-left {
+		left: 6px;
+		bottom: 6px;
+		background-position: 0 -44px;
+	}
+	.simply-scroll-btn-left.disabled {
+		background-position: 0 0 !important;
+	}
+	.simply-scroll-btn-left:hover, .simply-scroll-btn-left:focus {
+		background-position: 0 -88px;
+	}
+	
+	.simply-scroll-btn-right {
+		right: 6px;
+		bottom: 6px;
+		background-position: -84px -44px;
+	}
+	.simply-scroll-btn-right.disabled {
+		background-position: -84px 0 !important;
+	}
+	.simply-scroll-btn-right:hover, .simply-scroll-btn-right:focus {
+		background-position: -84px -88px;
+	}
+	
+	.simply-scroll-btn-up {
+		right: 6px;
+		top: 6px;
+		background-position: -126px -44px;
+	}
+	.simply-scroll-btn-up.disabled {
+		background-position: -126px 0 !important;
+	}
+	.simply-scroll-btn-up:hover, .simply-scroll-btn-up:focus {
+		background-position: -126px -88px;
+	}
+	
+	.simply-scroll-btn-down {
+		right: 6px;
+		bottom: 6px;
+		background-position: -42px -44px;
+	}
+	.simply-scroll-btn-down.disabled {
+		background-position: -42px 0 !important;
+	}
+	.simply-scroll-btn-down:hover, .simply-scroll-btn-down:focus {
+		background-position: -42px -88px;
+	}
+	
+	.simply-scroll-btn-pause {
+		right: 6px;
+		bottom: 6px;
+		background-position: -168px -44px;
+	}
+	.simply-scroll-btn-pause:hover, .simply-scroll-btn-pause:focus {
+		background-position: -168px -88px;
+	}
+.simply-scroll-btn:after{
+position: absolute;
+    content: "\f04c";
+    font: normal normal normal 14px/1 FontAwesome;
+    color: #fff;
+    padding: 9px;
+        }
+	
+	.simply-scroll-btn-pause.active:after {
+		content: "\f04b";
+	}
+	.simply-scroll-btn-pause.active:hover, .simply-scroll-btn-pause.active:focus {
+		background-position: -84px -88px;
+	}
+
+/* Custom class modifications - override classees
+
+.simply-scroll is default
+
+*/
+
+.simply-scroll { /* Customisable base class for style override DIV */
+	width: 576px;
+	height: 200px;
+	margin-bottom: 1em;
+}
+
+	.simply-scroll .simply-scroll-clip {
+		width: 576px;
+		height: 200px;
+	}
+	
+		.simply-scroll .simply-scroll-list {}
+		
+		.simply-scroll .simply-scroll-list li {
+			float: left;
+			width: 290px;
+			height: 200px;
+		}
+		.simply-scroll .simply-scroll-list li img {}
+	
+	.simply-scroll .simply-scroll-btn {}
+	
+	.simply-scroll .simply-scroll-btn-left {}
+	.simply-scroll .simply-scroll-btn-left.disabled {}
+	.simply-scroll .simply-scroll-btn-left:hover {}
+	
+	.simply-scroll .simply-scroll-btn-right {}
+	.simply-scroll .simply-scroll-btn-right.disabled {}
+	.simply-scroll .simply-scroll-btn-right:hover {}
+	
+	.simply-scroll .simply-scroll-btn-up {}
+	.simply-scroll .simply-scroll-btn-up.disabled {}
+	.simply-scroll .simply-scroll-btn-up:hover {}
+	
+	.simply-scroll .simply-scroll-btn-down {}
+	.simply-scroll .simply-scroll-btn-down.disabled {}
+	.simply-scroll .simply-scroll-btn-down:hover {}
+	
+
+
+/* Vertical scroller example */
+
+.vert { /* wider than clip to position buttons to side */
+	width: 100%;
+    height: 338px;
+	margin-bottom: 1.5em;
+}
+
+	.vert .simply-scroll-clip {
+		width: 100%;
+		height: 338px;
+	}
+	
+		.vert .simply-scroll-list {}
+		
+		.vert .simply-scroll-list li {
+			    color: #3c3533;
+    position: relative;
+    padding: 4px 4px 4px 0px;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #555;
+		}
+		.vert .simply-scroll-list li img {}
+	
+	.vert .simply-scroll-btn {}
+
+	.vert .simply-scroll-btn-up { /* modified btn pos */
+		right: 0;
+		top: 0;
+	}
+	.vert .simply-scroll-btn-up.disabled {}
+	.vert .simply-scroll-btn-up:hover {}
+	
+	.vert .simply-scroll-btn-down { /* modified btn pos */
+		right: 0;
+		top: 52px;
+	}
+	.vert .simply-scroll-btn-down.disabled {}
+	.vert .simply-scroll-btn-down:hover {}
+	
+	/* NOTE left-right classes wouldn't be needed on vertical scroller */  
+
+
+.imp_message {
+    position: absolute;
+    top: 50px;
+    right:192px;
+    z-index: 999;
+    width: 224px;
+    padding: 5px;
+    background: #fff;
+    border-radius: 5px;
+        height:300px;
+        overflow:hidden;
+}
+.imp_message img{
+max-width: 100%;
+    }
+    .imp_message span {
+    width: calc(100% - 10px);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgba(0,0,0,.8);position: static;
+    left:5px;;
+    bottom:5px;
+    text-align:center;
+    font-weight:600;
+    font-size:16px;
+    color:#fff;line-height: 1.2;
+    padding: 10px;float: left;
+    width: 100%;
+
+}
+         .imp_message:hover span {
+
+}
+.rpa-banner .imp_message {
+right: 200px;
+        }
+@media (max-width: 767px){
+.imp_message {
+    position: static;
+        top:inherit;
+        left:inherit; 
+        right:0;
+        bottom:0;
+          width: 100%;
+        height: 272px;
+        text-align:center;    text-align: center;
+    background: #2d3192;
+}
+    .imp_message a{
+display:inline-block;
+        }
+    .imp_message span {
+font-size: 15px;
+    padding: 5px;
+        }
+.imp_message img {
+    max-width: 100%;
+    max-height: 180px;
+    display: inline-block;
+}
+.main-slider, .main-slider .flexslider, .home-slide li {
+    height: 520px!important;
+}
+
+}
+.lightbox-wrapper{
+display:none;
+}
+
+.acb_tollfree_no .tf_number{
+ background: #11808e;
+    color: #fff;
+    border-radius: 5px;
+    line-height: 11px;
+    padding: 2px 10px;
+    padding-bottom: 4px;
+    -webkit-animation: bg1 1s infinite;  /* Safari 4+ */
+  -moz-animation: bg1 1s infinite;  /* Fx 5+ */
+  -o-animation: bg1 1s infinite;  /* Opera 12+ */
+  animation: bg1 1s infinite;  /* IE 10+, Fx 29+ */
+}
+@-webkit-keyframes bg1 {
+  0%, 49% {
+    background-color: #11808e;
+  }
+  50%, 100% {
+    background-color: #ba1111;
+  }
+}
+.acb_tollfree_no .wh_number{
+   background: #11808e;
+    color: #fff;
+    border-radius: 5px;
+    line-height: 11px;
+    padding: 2px 10px;
+    padding-bottom: 4px;
+    background: #4ecc5c;
+    color: #fff; 
+    -webkit-animation: bg2 1s infinite;  /* Safari 4+ */
+  -moz-animation: bg2 1s infinite;  /* Fx 5+ */
+  -o-animation: bg2 1s infinite;  /* Opera 12+ */
+  animation: bg2 1s infinite;
+}
+@-webkit-keyframes bg2 {
+  0%, 49% {
+    background-color: #4ecc5c;
+  }
+  50%, 100% {
+    background-color: #ff0000;
+  }
+}
+
+.idcLogo_otr,.idc-logo{
+display:none!important;
+    }
+    .gandhi img{
+padding:5px;
+            background:#fff;
+            border-radius:5px;
+        }
+#homeorders table#example1 tr td:nth-child(1){
+width:5%!important;
+}

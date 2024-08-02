@@ -1,0 +1,118 @@
+a {color: #fa8620;}
+a:hover, a:focus {color: #ff6700;}
+
+
+.navbar-default{
+	background:#fa8620;
+}
+
+.news .nav-tabs>li>a {
+	background-color: rgb(255, 103, 0);
+}
+
+
+.news-desc  a:hover{color:#fa8620}
+
+.viewmore { color:#fa8620 !important;}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fa8620;
+   
+}
+
+
+h3.heading:before {
+	background-color: rgb(255, 103, 0);
+}
+h3.heading:after {
+	background-color: rgb(255, 103, 0);
+}
+h3.headings:before {
+	background: #fff;
+}
+p.dropcap:first-letter {
+	color: rgb(255, 103, 0);
+}
+.progress-tracker ul li.active {
+	background-color: rgb(255, 103, 0);
+	border-color: rgb(255, 103, 0);
+}
+.progress-tracker ul li .pt-description span {
+	background: rgb(255, 103, 0);
+}
+.owl-theme .owl-controls .owl-page span {
+	background: rgb(255, 103, 0) !important;
+}
+.main-slider .flex-direction-nav a {
+    color: rgb(255, 103, 0);
+}
+.facts-in h3 i {  color: rgb(255, 103, 0);}
+.main-slider .flex-direction-nav a:before {
+    color: rgb(255, 103, 0);
+}
+.bg-theme {
+	background: rgb(255, 103, 0);
+}
+.border-black {
+	border: 2px solid rgb(255, 103, 0);
+	color: rgb(255, 103, 0);
+}
+.border-black:hover {
+	background-color: rgb(255, 103, 0);
+	border-color: rgb(255, 103, 0);
+}
+
+
+.cm h5, .minister h5 {background:#fa8620;}
+
+.pol-dep-menu ul.nav.navbar-nav.navbar-right .dropdown-menu {
+
+    background-color:#fa8620;
+}
+
+
+.pol-dep-menu ul.nav.navbar-nav.navbar-right .dropdown-menu>li>a:focus, .pol-dep-menu ul.nav.navbar-nav.navbar-right .dropdown-menu>li>a:hover, .pol-dep-menu ul.nav.navbar-nav.navbar-right .dropdown-menu>li>ul>a:hover {
+    background-color: #d06e19;
+}
+
+
+#police-dep-popup .modal-body ul li {
+
+    background: #7d4310;
+}
+
+.nbs-flexisel-item img:hover {
+    border:1px solid #d06e19;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, .5);
+}
+
+
+/*
+
+
+#footer {
+	background: rgb(255, 103, 0);
+	color: #fff;
+}
+#footer p {
+	color: #fff
+}
+
+.footer-col h3.headings {
+    border-bottom-color: #e26007;
+ 
+}
+.footer-btm {
+
+    border-top: 1px solid #e26007;
+
+}
+
+.address-info li, .address-info li a {
+	color: #f1f1f1;
+}
+.address-info li i {
+	color: #d2c7b8;
+}
+*/

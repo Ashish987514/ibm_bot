@@ -1,0 +1,1736 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ACB Department</title>
+
+
+
+
+<link href="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/css/ita-dep.css" rel="stylesheet">
+
+<link href="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/css/bootstrap.min.css" rel="stylesheet">
+<link href="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/css/style.css" rel="stylesheet" type="text/css" media="screen">
+<link href="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/css/font-awesome.min.css" rel="stylesheet">
+<link href="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/css/flexslider.css" rel="stylesheet" type="text/css" media="screen">
+<link href="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/css/owl.transitions.css" rel="stylesheet" type="text/css" media="screen">
+<link href="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/css/animate.css" rel="stylesheet" type="text/css" media="screen">
+<link href="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/css/jquery.progresstracker.css" rel="stylesheet" type="text/css" media="screen">
+<link href="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/css/owl.carousel.css" rel="stylesheet" type="text/css" media="screen">
+<link href="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/css/owl.theme.css" rel="stylesheet" type="text/css" media="screen">
+<link href="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/css/slimmenu.min.css" rel="stylesheet" type="text/css" media="screen">
+<link rel="stylesheet" href="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/css/dataTables.bootstrap.min.css"/>
+<link rel="stylesheet" href="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/clientlib/css/scroller.css"/>
+<link rel="stylesheet" href="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/clientlib/css/menuscroller.css"/>
+<link rel="stylesheet" href="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/css/style1.css"/>
+<link rel="stylesheet" href="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/css/player.css"/>
+<link rel="stylesheet" href="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/clientlib/css/popup.css"/>
+<link rel="stylesheet" href="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/css/color2.css" type="text/css" media="all" title="color2"/>
+<link rel="stylesheet" href="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/css/color3.css" type="text/css" media="all" title="color3"/>
+<link rel="stylesheet" href="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/css/color4.css" type="text/css" media="all" title="color4"/>
+<link rel="stylesheet" href="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/css/color5.css" type="text/css" media="all" title="color5"/>
+
+</head>
+<body class="header-horizontal">
+<div id="preloader"> <div id="status">&nbsp;</div></div>
+<div class="top-bar-wrap">
+  <div class="container">
+    <div class="top-bar">
+      <div class="pull-left">
+        <div class="time"> <i class="fa fa-clock-o"></i>
+          <noscript>5
+          Javascript Required
+          </noscript>
+          <script type="text/javascript">
+                                    var d = new Date()
+                                    var weekday = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+                                    var monthname = new Array("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+                                    document.write(weekday[d.getDay()] + ", ")
+                                    document.write(d.getDate() + " ")
+                                    document.write(monthname[d.getMonth()] + ", ")
+                                    document.write(d.getFullYear())
+                                </script> 
+          <span id="clockDisplay"> 
+          <script type="text/javascript">
+                                        function renderTime() {
+                                            var currentTime = new Date();
+                                            var diem = "AM";
+                                            var h = currentTime.getHours();
+                                            var m = currentTime.getMinutes();
+                                            var s = currentTime.getSeconds();
+                                            setTimeout('renderTime()', 1000);
+                                            if (h == 0) {
+                                                h = 12;
+                                            } else if (h > 12) {
+                                                h = h - 12;
+                                                diem = "PM";
+                                            }
+                                            if (h < 10) {
+                                                h = "0" + h;
+                                            }
+                                            if (m < 10) {
+                                                m = "0" + m;
+                                            }
+                                            if (s < 10) {
+                                                s = "0" + s;
+                                            }
+                                            var myClock = document.getElementById('clockDisplay');
+                                            myClock.textContent = h + ":" + m + ":" + s + " " + diem;
+                                            myClock.innerText = h + ":" + m + ":" + s + " " + diem;
+                                        }
+                                        renderTime();
+                                    </script> 
+          </span> </div>
+      </div>
+      <div class="pull-right">
+        <ul class="list-inline social-1">
+          <li>
+            <div class="color-selector-wrapper"> 
+            <a href="#" title="Default Theme" class="color2" onclick="switch_style('color2'); return false;"></a>
+            <a href="#" title="Orange Theme" class="color1" onclick="switch_style('color4'); return false;"></a>
+            <a href="#" title="Honey Orange Theme" class="color3" onclick="switch_style('color3'); return false;"></a>
+            <a href="#" title="Normal Contrast" class="color4" onclick="switch_style('color1'); return false;">A</a>
+            <a href="#" title="High Contrast" class="color5" onclick="switch_style('color5'); return false;">A</a>
+          </div>
+          </li>
+          <li>
+            <div class="fontsizer"> 
+                 <a href="#" title="Increase Font Size" class="increase font">+</a>
+                 <a href="#" title="Default Font Size" class="resetMe font">=</a>
+                 <a href="#" title="Decrease Font Size" class="decrease font">-</a> 
+                 <a href="#" onclick="window.print()" class="font" title="Print"><i class="fa fa-print"></i></a>
+           </div>
+          </li>
+<li class="desk-hide"><a href="#aboutus" class="page-scroll" title="Skip to main content" rel="noopener noreferrer">Skip to main content</a></li>
+        <li class="desk-hide"><a href="/content/homeportal/en/screenreaderaccess.html" target="_blank" title="Screen Reader Access" rel="noopener noreferrer">Screen Reader Access</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="navbar navbar-default navbar-static-top sticky" role="navigation">
+  <div class="container">
+
+    
+<div class="navbar-header">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+	<a class="navbar-brand" href="/content/homeportal/en/acbdepartment.html">
+		<img src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/content/dam/homeportal/anticorruptionbureaudepartment/logo/antii-Corruption-Bureau-logo.png" alt="Home Portal Department" title="Home Portal Department"/> 
+		<span class="hide_txt">home</span>
+	</a>
+</div><div class="section"></div><div class="iparys_inherited"></div>
+
+
+    <!--.navbar header-->
+    
+  
+
+
+<div class="navbar-collapse collapse pol-dep-menu">
+      <ul class="nav navbar-nav navbar-right" style="height:65px;">
+        <li><a href="/content/homeportal/en.html" rel="noopener noreferrer" class="main-portal-link" target="_blank"><i class="fa fa-home"> </i> Back to Main Portal</a></li>
+          
+
+        <li class="dropdown lang-sel"> <a href="#" class="dropdown-toggle " data-toggle="dropdown">Language<i class="fa fa-angle-down"></i></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="">English</a></li>
+            <li><a href="">Hindi</a></li>
+          </ul>
+        </li> 
+
+          <li class="dropdown " data-animate="animated fadeInUp" style="z-index:500;"> <a href="#" class="dropdown-toggle " data-toggle="dropdown"><i class="fa fa-search"></i><em class="hide_txt">search icon</em></a>
+          <ul class="dropdown-menu animated fadeInUp">
+            <li id="dropdownForm">
+              <div class="dropdown-form">
+                
+<input name="colid" class="colid" type="hidden" value="">
+
+				
+                
+                
+                
+                    
+                
+
+<form class=" form-inline" id="searchform" action="/content/homeportal/en/acbdepartment/search-results.html">
+                  <div class="input-group" >
+                     <input  type="search" aria-label="search keyward" class="form-control" name="q" id="search-input" placeholder="Keywords..." autocomplete="off" required>
+
+
+
+                    <span class="input-group-btn">
+                         <button class="btn btn-theme-bg" type="button" id="submit-2">Go</button>
+
+                    </span> 
+                      
+
+                    </div>
+                </form>
+
+
+              </div>
+            </li>
+          </ul>
+        </li>
+          
+
+      </ul>
+    </div>
+
+
+
+        <a tabindex="0" style="color:#fff; margin-top:10px;" class="hamberg"> <i class="fa fa-bars"></i><em class="hide_txt">toggle button</em></a>
+          <div class="menu-wrap">
+                  <div class="menu-header">
+                     <span class="nav-hd">Navigation</span>
+                     <span id="nav-close"><i class="fa fa-times" aria-hidden="true"></i></span>
+                  </div>
+              <div id="nav">
+                  <ul>
+
+  
+                                <ul style="list-style:none">
+                                    
+                                    
+                                    <li> <a href="/content/homeportal/en/acbdepartment/righttoinformation/rtiact2005.html" title="RTI Act 2005">RTI Act 2005
+                                        </a>
+                                        
+                                    </li>
+                                    
+                                    
+                                    <li> <a href="/content/homeportal/en/acbdepartment/righttoinformation/pio-apio.html" title="PIO / APIO">PIO / APIO
+                                        </a>
+                                        
+                                    </li>
+                                    
+                                    
+                                    <li> <a href="/content/homeportal/en/acbdepartment/righttoinformation/rtiproforma.html" title="RTI Proforma">RTI Proforma
+                                        </a>
+                                        
+                                    </li>
+                                    
+                                    
+                                    <li> <a href="/content/homeportal/en/acbdepartment/righttoinformation/cvo.html" title="CVO">CVO
+                                        </a>
+                                        
+                                    </li>
+                                    
+                                    
+                                    <li> <a href="/content/homeportal/en/acbdepartment/righttoinformation/appellateauthority-newcontents.html" title="First Appellate Authority">First Appellate Authority
+                                        </a>
+                                        
+                                    </li>
+                                    
+                                    
+                                    <li> <a href="/content/homeportal/en/acbdepartment/righttoinformation/rtimanual.html" title="RTI Manual">RTI Manual
+                                        </a>
+                                        
+                                    </li>
+                                    
+                                    
+                                    <li> <a href="/content/homeportal/en/acbdepartment/righttoinformation/rti-section-4-1--b-.html" title="RTI Section 4(1)(B)">RTI Section 4(1)(B)
+                                        </a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                
+                                    </li>
+                                    
+                                    
+                                    <li> <a href="/content/homeportal/en/acbdepartment/chiefofacb.html" title="Chief of ACB">Chief of ACB
+                                        </a>
+                                        
+                                    </li>
+                                    
+                                    
+                                    <li> <a href="/content/homeportal/en/acbdepartment/RajasthanCalendar.html" title="Rajasthan Calendar">Rajasthan Calendar
+                                        </a>
+                                        
+                                    </li>
+                                    
+                                    
+                                    <li> <a href="/content/homeportal/en/acbdepartment/performance.html" title="Performance">Performance
+                                        </a>
+                                        
+                                <ul style="list-style:none">
+                                    
+                                    
+                                    <li> <a href="/content/homeportal/en/acbdepartment/performance/annualreport0.html" title="Annual Report">Annual Report
+                                        </a>
+                                        
+                                    </li>
+                                    
+                                    
+                                    <li> <a href="/content/homeportal/en/acbdepartment/performance/5-year-registration-disposal-of-registered-cases.html" title="5 Year Registration Cases">5 Year Registration Cases
+                                        </a>
+                                        
+                                    </li>
+                                    
+                                    
+                                    <li> <a href="/content/homeportal/en/acbdepartment/performance/5-year-registration---disposal-of-complaint.html" title="5 Year Registration of PE and Complaint ">5 Year Registration of PE and Complaint 
+                                        </a>
+                                        
+                                    </li>
+                                    
+                                    
+                                    <li> <a href="/content/homeportal/en/acbdepartment/performance/main-achievements0.html" title="Main Achievements">Main Achievements
+                                        </a>
+                                        
+                                    </li>
+                                    
+                                    
+                                    <li> <a href="/content/homeportal/en/acbdepartment/performance/pending-prosecution-sanction0.html" title="Pending Prosecution Sanction">Pending Prosecution Sanction
+                                        </a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                
+                                    </li>
+                                    
+                                    
+                                    <li> <a href="/content/homeportal/en/acbdepartment/pendingps.html" title="Pending PS">Pending PS
+                                        </a>
+                                        
+                                <ul style="list-style:none">
+                                    
+                                    
+                                    <li> <a href="/content/homeportal/en/acbdepartment/pendingps/pendingwithdop.html" title="Pending with DOP">Pending with DOP
+                                        </a>
+                                        
+                                    </li>
+                                    
+                                    
+                                    <li> <a href="/content/homeportal/en/acbdepartment/pendingps/pendingwithhod.html" title="Pending with HOD">Pending with HOD
+                                        </a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                
+                                    </li>
+                                    
+                                    
+                                    <li> <a href="/content/homeportal/en/acbdepartment/budgetannouncement.html" title="Budget Announcement">Budget Announcement
+                                        </a>
+                                        
+                                    </li>
+                                    
+                                    
+                                    <li> <a href="/content/homeportal/en/acbdepartment/budgetallocation.html" title="Budget Allocation">Budget Allocation
+                                        </a>
+                                        
+                                    </li>
+                                    
+                                    
+                                    <li> <a href="/content/homeportal/en/acbdepartment/photogallery.html" title="Photo Gallery">Photo Gallery
+                                        </a>
+                                        
+                                    </li>
+                                    
+                                    
+                                    <li> <a href="/content/homeportal/en/acbdepartment/manpowerposition.html" title="Manpower Position">Manpower Position
+                                        </a>
+                                        
+                                    </li>
+                                    
+                                    
+                                    <li> <a href="/content/homeportal/en/acbdepartment/faqs.html" title="FAQ&#39;s">FAQ&#39;s
+                                        </a>
+                                        
+                                    </li>
+                                    
+                                    
+                                    <li> <a href="/content/homeportal/en/acbdepartment/site_map.html" title="Site Map">Site Map
+                                        </a>
+                                        
+                                    </li>
+                                    
+                                    
+                                    <li> <a href="/content/homeportal/en/acbdepartment/roster.html" title="Roster">Roster
+                                        </a>
+                                        
+                                    </li>
+                                    
+          </ul>
+              </div></div>
+              </div>
+
+              
+ 
+
+  </div>
+</div>
+<div>
+
+
+
+	  
+<div class="navigation">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<nav id="main-nav" class="navbar navbar-expand-md bg-dark navbar-dark">
+					<div class="collapse navbar-collapse" id="collapsibleNavbar" style="max-height: 360px;">
+						<!-- Sample menu definition -->
+						<ul id="main-menu" class="sm sm-blue" data-smartmenus-id="16542445595927698">
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/home.html" title="Home">Home
+								</a>
+								
+							</li>
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/aboutus.html" title="About us">About us
+								</a>
+								
+                               <ul >
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/aboutus/history.html" title="History">History
+								</a>
+								
+							</li>
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/aboutus/aimsobjectives.html" title="Aims Objectives">Aims Objectives
+								</a>
+								
+							</li>
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/aboutus/organisationalstructure.html" title="Organisational Structure">Organisational Structure
+								</a>
+								
+							</li>
+							
+						</ul>
+						
+							</li>
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/DG-Message.html" title="DG-Message ">DG-Message 
+								</a>
+								
+							</li>
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/Fir-by-year.html" title="FIR">FIR
+								</a>
+								
+							</li>
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/media.html" title="Media Corner">Media Corner
+								</a>
+								
+                               <ul >
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/media/News.html" title="News">News
+								</a>
+								
+                               <ul >
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/media/News/NewsPhoto.html" title="News paper Cutting Photo">News paper Cutting Photo
+								</a>
+								
+							</li>
+							
+						</ul>
+						
+							</li>
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/media/photogallery.html" title="Photo Gallery">Photo Gallery
+								</a>
+								
+							</li>
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/media/Videogallery.html" title="Video Gallery">Video Gallery
+								</a>
+								
+							</li>
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/media/Event.html" title="Event ">Event 
+								</a>
+								
+							</li>
+							
+						</ul>
+						
+							</li>
+							
+							
+                                    <li >
+                                        <a title="Press Release" href="/content/homeportal/en/acbdepartment/pressrelease.html">
+                                        Press Release
+                                        </a>
+								
+							</li>
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/tender.html" title="Tender">Tender
+								</a>
+								
+							</li>
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/contact_us.html" title="Contact Directory">Contact Directory
+								</a>
+								
+							</li>
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/citizencharter.html" title="Citizen Charter">Citizen Charter
+								</a>
+								
+							</li>
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/actandrules.html" title="Act and Rules">Act and Rules
+								</a>
+								
+                               <ul >
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/actandrules/pcact1988.html" title="PC Act 1988">PC Act 1988
+								</a>
+								
+							</li>
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/actandrules/therajasthanspecialcourtact2012.html" title="The Rajasthan Special Court Act 2012">The Rajasthan Special Court Act 2012
+								</a>
+								
+							</li>
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/actandrules/Spl_selection_rules_ACB.html" title="Special Selection Rules for Appointment in ACB">Special Selection Rules for Appointment in ACB
+								</a>
+								
+							</li>
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/actandrules/announcement--_-.html" title="Announcement (उद्घोषणा)">Announcement (उद्घोषणा)
+								</a>
+								
+							</li>
+							
+						</ul>
+						
+							</li>
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/righttoinformation.html" title="Right to Information">Right to Information
+								</a>
+								
+                               <ul >
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/righttoinformation/rtiact2005.html" title="RTI Act 2005">RTI Act 2005
+								</a>
+								
+							</li>
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/righttoinformation/pio-apio.html" title="PIO / APIO">PIO / APIO
+								</a>
+								
+							</li>
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/righttoinformation/rtiproforma.html" title="RTI Proforma">RTI Proforma
+								</a>
+								
+							</li>
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/righttoinformation/cvo.html" title="CVO">CVO
+								</a>
+								
+							</li>
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/righttoinformation/appellateauthority-newcontents.html" title="First Appellate Authority">First Appellate Authority
+								</a>
+								
+							</li>
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/righttoinformation/rtimanual.html" title="RTI Manual">RTI Manual
+								</a>
+								
+							</li>
+							
+							
+							<li> <a href="/content/homeportal/en/acbdepartment/righttoinformation/rti-section-4-1--b-.html" title="RTI Section 4(1)(B)">RTI Section 4(1)(B)
+								</a>
+								
+							</li>
+							
+						</ul>
+						
+							</li>
+							
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+</div>
+    <link rel="stylesheet" type="text/css" href="/etc/designs/home/dep-clientlib/css/acb-dep-menu.css">
+
+
+<style>
+	.cms-logos {
+	position: absolute;
+	z-index: 99;
+	bottom: 480px;
+	width: 10%;
+	right: 0px;
+	}
+	.cm-image-home{position:absolute;bottom:0;z-index: 999;}
+	.cm-image-home img{max-width:250px;}
+	.minister-image-home{position:absolute;bottom:0;z-index: 999;right:0}
+	.minister-image-home img{max-width:220px;}
+	.chiranjeevi_logo {
+	position: absolute;
+	top: 0;
+	right: 0px;
+	z-index: 1;
+	}
+	.new_hg_minst
+	{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	max-width: 200px;
+	z-index: 9;
+	}
+	.new_hg_minst img{
+	max-width: 100%;
+	}
+	.home-slide li
+	{
+	height:calc(100vh - 97px);
+	background-size: 100% 100% !important;
+	}
+	.rpa-banner .home-slide li{
+	height:calc(100vh - 240px);
+    background-size: 100% 100% !important;
+	}
+	.home-slide{
+	padding:0;
+	}
+	.home-slide .owl-pagination
+	{
+	display:none!important;
+	}
+	.flexslider .home-slide .owl-buttons div{
+	text-decoration: none;
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin: -20px 0 0;
+	position: absolute;
+	top: 42%;
+	z-index: 100;
+	overflow: hidden;
+	opacity: 0;
+	cursor: pointer;
+	color: rgba(0, 0, 0, 0.8);
+	text-shadow: 1px 1px 0 rgb(255 255 255 / 30%);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	height: 50px;
+	line-height: 50px;
+	width: 50px;
+	text-shadow: none;
+	color: #32c5d2;
+	opacity: 1;
+	font-size: 0;
+	background: transparent;
+	}
+	.flexslider .home-slide .owl-buttons div.owl-next {
+	right: 30px;
+	text-align: right;
+	}
+	.flexslider .home-slide .owl-buttons div.owl-prev {
+	left: 30px;
+	}
+	.flexslider .home-slide .owl-buttons div.owl-next:before{
+	font: normal normal normal 14px/1 FontAwesome;
+	content: "\f105";
+	font-size:50px;
+	}
+	.flexslider .home-slide .owl-buttons div.owl-prev:before{
+	font: normal normal normal 14px/1 FontAwesome;
+	content: "\f104";
+	font-size:50px;
+	}
+	.main-slider
+	{
+	background: transparent;
+	}
+.cq-placeholder-department-banner_47cmp0{
+	margin-top:27px !important;
+    }
+.acb--banner-logo{
+	position: absolute;
+    z-index: 1;
+    bottom: inherit!important;
+    top: 10px;
+    left: 0!important;
+    max-width: 210px;
+    border: 1px solid black;
+}
+.acb--banner-logo img{
+    width : 100%;
+}
+.minister-image{
+    position: absolute;
+    bottom: 0;
+    z-index: 999;
+    right: 0;
+    max-width: 170px;
+}
+.helplineNo{
+ position: absolute;
+    bottom: 0;
+    z-index: 999;
+    right: 0;
+    background: #ffff;
+    background: #11808e;
+    color: #fff;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.5;
+    }
+@media only screen and (max-width:767px){
+    .helplineNo{
+padding: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    }
+}
+</style>
+
+
+<section id="home" class="main-slider pt-section" data-name="Home">
+	<div class="flexslider">
+
+<div class="cm-image-home">
+		<img src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/content/dam/common/cm-image/cm-rajasthan.png" alt="Shri Bhajan Lal Sharma" title="Shri Bhajan Lal Sharma, Hon'ble Chief Minister ">
+		</div>
+            <div class="acb--banner-logo">
+    <a href="https://home.rajasthan.gov.in/acb/" target="_blank" rel="noopener noreferrer"> <img src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/content/dam/common/logobanner1.jpg" alt="acb"></a>
+</div>
+
+
+
+
+
+
+
+		<!-- <div class="rpa_marquee" data-sly-test="false">
+			<marquee onmouseover="this.stop();" onmouseout="this.start();" direction="right" behavior="alternate">
+			             
+			<a rel="noopener noreferrer" adhocenable="false" href="https://webcast.gov.in/mha/ib" target="_blank">पुलिस स्मृति दिवस समारोह का सीधा प्रसारण</span></b></span><b><span style="color: rgb(255,102,0);"></a></marquee> 
+			</div> -->
+
+		
+		
+		<ul class="home-slide owl-carousel owl-theme">
+			
+				
+    <!--<li style="background: url('/content/dam/common/cmo/drugBanner1.jpg')"></li>
+    <li style="background: url('/content/dam/common/cmo/drugBanner2.jpg')"></li>-->
+
+<li style="background: url('C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/content/dam/homeporta/lanticorruptionbureaudepartment/bannerimages/banner5.jpg')">
+        <div class="slider-text">
+          <div class="inner">
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                      <h4></h4>
+                      
+                      
+                       
+
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+
+			
+				
+    <!--<li style="background: url('/content/dam/common/cmo/drugBanner1.jpg')"></li>
+    <li style="background: url('/content/dam/common/cmo/drugBanner2.jpg')"></li>-->
+
+<li style="background: url('C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/content/dam/homeporta/lanticorruptionbureaudepartment/bannerimages/banner1.jpg')">
+        <div class="slider-text">
+          <div class="inner">
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                      <h4></h4>
+                      <a href="#news" class="btn btn-lg page-scroll border-white">Latest News</a>
+                      
+                       
+
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+
+			
+				
+    <!--<li style="background: url('/content/dam/common/cmo/drugBanner1.jpg')"></li>
+    <li style="background: url('/content/dam/common/cmo/drugBanner2.jpg')"></li>-->
+
+			
+
+		</ul>
+	</div>
+	
+	
+	<!--<a href="http://www.gramrajasthan.in" class="gram-logo" target="_blank">
+		</a>-->
+	
+</section>
+<script>
+	/*var url = window.location.href;
+	 	var f = url.includes("homeguardsdepartment");
+	var f1 = url.includes("homeguards");
+	 	if(f==true || f1==true){
+	       document.getElementById("ministerImgValidationHome").innerHTML = 
+	       '<div class="minister-image-home">' + '<img src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/content/dam/HomeGuardsfile/pic-/Sh-Bhajanlal-Jatav.png" alt="Shri Bhajanlal Jatav" title="Shri Bhajanlal Jatav">'+
+	       '</div>';
+	   }*/
+	
+	
+</script>
+<!--- New Banner Section for News and Courses  -->
+
+
+
+
+
+    
+
+<section id="aboutus" class="pt-section padding-v-60" data-name="About Us">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+<h3 class="heading">Anti Corruption Bureau, Rajasthan</h3>
+      </div>
+    </div>
+    <div class="row">
+    <div class="col-md-12 about-us"><!-- <img src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/content/dam/homeportal/anticorruptionbureaudepartment/bannerimages/PHOTOACBBUILDING1.jpg" class="img-responsive" alt="Anti Corruption Bureau, Rajasthan" title="Anti Corruption Bureau, Rajasthan"> -->
+
+<h3 class="acb_tollfree_no"><span>Helpline Number: <a class="tf_number" href="tel:+1064"><i class="fa fa-phone" aria-hidden="true"></i> 1064</a>,</span>  
+<span>Whatsapp Helpline Number: <a href="https://api.whatsapp.com/send?phone=+9413502834" class="wh_number"><i class="fa fa-whatsapp" aria-hidden="true"></i> 9413502834</a></span></h3>
+
+    <table width="100%" cellspacing="3" cellpadding="12" border="0">
+<tbody><tr><td style="text-align: center;color: rgb(255,0,0);" valign="top"> </td>
+</tr><tr><td valign="top" height="121"><h2 style="text-align: center;">Email : complt.acb@rajasthan.gov.in</h2>
+<p>The Anti Corruption Bureau is primarily responsible for the detection, investigation and prosecution of cases of corruption among public servants and facilitating government departments to provide an honest, transparent and clean administration. ACB conducts enquiries into complaints of corruption and investigates cases registered under Prevention of Corruption Act. ACB deals with four types of cases viz. Trap Cases, Disproportionate Assets Cases, Embezzlement Cases and Misuse of Office Cases.</p>
+</td>
+</tr><tr><td valign="top"><p style="text-align: center;"><b>J-9, Jhalana Institutional Area, Jaipur (Rajasthan)<br />
+ Tele/Fax No.: 0141-2712263</b></p>
+<p style="text-align: center;"> </p>
+</td>
+</tr></tbody></table>
+
+
+             </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<section id="news" class=" news parallax pt-section padding-v-60" data-name="News" style="background-image:url(C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/content/dam/homeportal/backgroundimages/news.jpg);">
+<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="heading">Latest News</h3>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col-md-12">
+        <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#lNews">Press Notes</a></li>
+   <li><a data-toggle="tab" href="#tenders">Tenders</a></li>
+    
+        </ul>
+        <div class="tab-content news-desc">
+          <div id="lNews" class="tab-pane fade in active">
+           <div class="tableHeight"> <div id="acbpressnote"></div></div>
+
+         <div align="right">
+         <a href="/content/homeportal/en/acbdepartment/media/" class="readMore btn"> </a>
+
+         </div>
+
+       <a class="viewmore" href="/content/homeportal/en/acbdepartment/pressrelease.html">View More</a>
+          </div>
+
+          <div id="tenders" class="tab-pane fade">
+         <div class="tableHeight"> <div id="acbtenders"></div></div>
+
+
+
+             <div align="right">
+  <a href="/content/homeportal/en/acbdepartment/tender" class="readMore btn"> </a>
+
+  </div>
+
+    <a class="viewmore" href="/content/homeportal/en/acbdepartment/tender.html">View More</a>
+          </div>
+
+<div id="events" class="tab-pane fade">
+        <div class="tableHeight">    <div id="acbcirculars"> </div> </div>
+
+ <div align="right">
+<a class="readMore btn"> </a>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+
+ 
+<!-- <sly data-sly-test="false"><div data-sly-resource="departmentlatestnewsSection" data-sly-unwrap/></sly> -->
+
+<section id="count" class="process-rounded pt-section padding-v-60" data-name="Count">
+ <div class="container">
+
+    <div class="row">
+
+  
+          
+     
+ 
+  </div>
+    </div>
+</section>
+
+
+	<section id="services" class="services bg-theme pt-section padding-v-60" data-name="Services">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="heading">Our Services</h3>
+      </div>
+    </div>
+    <div class="row">
+     
+ 
+     
+
+    </div>
+  </div>
+</section>
+
+<section class="otherWebLink">
+<div class="container padding-v-30">
+<ul id="flexiselDemo3">
+<li><a rel="noopener noreferrer" href="https://www.itu.int/wtsa/2024/" target="_blank"><img src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/content/dam/common/ituwsta/iTUWSTA-logo.jpg" alt="ituwsta logo"> </a></li>
+    
+        
+          <li><a href="https://janaadhaar.rajasthan.gov.in" onclick="return confirmRedirect();" target='_blank'><img src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/content/dam/common/janaadhaar-logo2.png" alt="Impartent links"></a></li>
+    
+          <li><a href="https://sso.rajasthan.gov.in/signin" onclick="return confirmRedirect();" target='_blank'><img src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/content/dam/homeportal/departmnentfootersliderimg/2.jpg" alt="Impartent links"></a></li>
+    
+          <li><a href="http://sampark.rajasthan.gov.in/" onclick="return confirmRedirect();" target='_blank'><img src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/content/dam/homeportal/departmnentfootersliderimg/3.jpg" alt="Impartent links"></a></li>
+    
+          <li><a href="https://india.gov.in/" onclick="return confirmRedirect();" target='_blank'><img src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/content/dam/homeportal/departmnentfootersliderimg/5.png" alt="Impartent links"></a></li>
+    
+          <li><a href="http://gyansankalp.nic.in" onclick="return confirmRedirect();" target='_blank'><img src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/content/dam/water/img/button_csr1.jpg" alt="Impartent links"></a></li>
+    
+          <li><a href="#" onclick="return confirmRedirect();" target='_blank'><img src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/content/dam/common/beti-bachao-beti-padhao.png" alt="Impartent links"></a></li>
+    
+  
+</ul>    
+</div>
+<section>
+
+ <script>
+    function confirmRedirect(){
+		var r = confirm('You will be redirect to a different webpage.');
+        if(r == true){
+            window.loaction = $(this).attr("href");
+        }
+        return r;
+    }
+</script> 
+
+
+
+
+
+
+</div> 
+<footer id="footer">
+  <div class="container">
+
+    <div class="row">
+             <div class="col-md-4 margin30">
+        <div class="footer-col">
+<p>Nodal Officer : Sh. Vishnaram (Charge SP-Admn)</p>
+<p><b>Supdt. of Police</b>, ACB, Jaipur</p>
+<p>Phone No. 0141-2710944</p>
+<p> </p>
+
+
+
+          <ul class="list-inline social-1">
+           
+          </ul>
+        
+        </div>
+      </div><div class="section"></div><div class="iparys_inherited"></div>
+
+<div class="col-md-3 margin30">
+ 
+        <div class="footer-col">
+
+          <h3 class="headings">Important Links</h3>
+          <ul class="list-unstyled popular-post">
+
+          
+
+            <li> <a href="/content/homeportal/en/acbdepartment/Terms-Conditions.html">Terms &amp; Conditions</a> </li>
+
+
+            <li> <a href="/content/homeportal/en/acbdepartment/Disclaimer.html">Disclaimer</a> </li>
+
+
+            <li> <a href="/content/homeportal/en/acbdepartment/Accessibility.html">Accessibility</a> </li>
+
+
+            <li> <a href="/content/homeportal/en/acbdepartment/faqs.html">FAQ&#39;s</a> </li>
+
+
+            <li> <a href="/content/homeportal/en/acbdepartment/PrivacyPolicy.html">Privacy Policy</a> </li>
+
+
+            <li> <a href="/content/homeportal/en/acbdepartment/Hyperlink-Policy.html">Hyperlink Policy</a> </li>
+
+
+            <li> <a href="/content/homeportal/en/acbdepartment/CopyrightPolicy.html">Copyright Policy</a> </li>
+
+
+            <li> <a href="/content/homeportal/en/acbdepartment/site_map.html">Sitemap</a> </li>
+
+          </ul>
+        </div>
+        
+
+      </div><div class="section"></div><div class="iparys_inherited"></div>
+
+    <div class="col-md-5 margin30" style="text-align:center;">
+    	
+			<div class="update">
+    				<p class="center"> 
+    Last updated on: 
+
+    01/08/2024 04:46:56 PM
+
+ 
+
+    				</p>
+ 					<div class="newcounter">You are visitor No :- <span id="visitorCounter"></span></div> 
+
+
+
+    		</div>
+
+        <div class="gandhi">
+    <a href="https://amritmahotsav.nic.in/" target="_blank"><img src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/content/dam/common/akam-logo.png" alt="Azadi Ka Amrit Mahotsav" width="158"></a>
+</div> 
+
+<div class="g20 gandhi"> <a rel="noopener noreferrer" href="https://www.g20.org/en/" target="_blank">	<img src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/content/dam/common/g20.png" alt="g20" width="158"></a></div>
+
+
+<div class="ex-links">
+			<ul>
+			 <li> <a href="https://validator.w3.org/" target="_blank"><img src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/content/dam/common/icons/w3c_html_icon.png" alt="w3c html"></a>
+			 </li>
+			<li> <a href="https://jigsaw.w3.org/css-validator/" target="_blank"><img src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/content/dam/common/icons/w3c_css.gif" alt="w3c css"></a>
+			</li>
+			</ul>
+		</div>
+
+	</div>
+ <div class="row">
+<div class="col-md-5 margin30">
+        <div class="footer-col">
+          <h3 class="headings">Our Location</h3>
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.9300383409995!2d75.81478051463522!3d26.873963783144298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db67d684b9c25%3A0x9b253e14b6fd091c!2sAnti+Corruption+Bureau!5e0!3m2!1sen!2sin!4v1491901834350" width="600" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+         </script> 
+          </div>
+        </div>
+      </div><div class="section"></div><div class="iparys_inherited"></div>
+
+
+<div class="col-md-7 margin30 idcLogo_otr">
+<div class="idc-logo"><img src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/content/dam/common/idc-logo.png" alt="100 international day of cooperatives"></div>
+</div>
+</div>
+
+</div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-btm"><div>
+ 
+</div>  </div>
+		
+		
+
+		
+		
+      </div>
+    </div>
+  </div>    
+      </div>
+</div>
+</footer>
+<!--<div data-sly-resource="par" data-sly-unwrap />
+<div data-sly-include="/libs/wcm/core/components/init/init.jsp" data-sly-unwrap />
+-->
+     <div id="back-top"><a href="#top"><span class="hide_txt">Scroll to Top</span></a></div>
+
+            <style>
+                .idcLogo_otr{
+    width: auto;
+                }
+.idc-logo{
+float:right;width:100%
+}
+.idc-logo img{
+    background: #fff;
+    border-radius: 15px;
+    padding: 4px 7px;
+    max-width: 200px;
+    margin: 32px 0 20px 0;
+	box-shadow: 0 0 20px 0 rgb(62 28 131 / 10%);
+}
+      .update p.center{
+
+text-align:center;
+                margin : 8px  0 !important;
+                }          
+    .gandhi
+{
+      margin:0 auto;
+    width: 103px;    display: inline-block;
+    margin: 0 5px;
+
+}
+    .digifestLogo{
+    width: 190px;
+    }
+    .gandhi img{
+        max-width: 100%;
+        }
+    footer .container
+    {
+        position:relative;
+    }
+    @media only screen and (max-width:1025px)
+            {
+        .gandhi {
+
+width: 103px;
+display: block;
+margin: 20px auto;
+}
+    }
+</style>
+
+
+<link rel="stylesheet" type="text/css" href="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/clientlib/css/popup.css" media="screen"> <!-- Added by Manish-->
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/js/jquery.min.js"></script>
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/js/jquery.vender.new.js"></script>
+
+
+
+
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/js/jquery.flexslider-min.js" type="text/javascript"></script> 
+
+
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/js/jquery.fancybox.js"></script>
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/js/global.js"></script>
+<script type="text/javascript" src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/clientlib/js/jquery.smartmenus.js"></script> 
+<script type="text/javascript" src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/clientlib/js/jquery.smartmenus.bootstrap.js"></script>
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/js/bootstrap.min.js" type="text/javascript"></script>
+
+
+
+
+
+   <div class="f-script"></div>
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/js/acb-dep-menu.js"></script>
+
+   <script>
+//navigation shortcode
+$(function() {
+             $('#main-menu').smartmenus({
+                 subMenusSubOffsetX: 1,
+                 subMenusSubOffsetY: -8
+             });
+         });
+
+$(document).ready(function(){
+    $('.hamberg').click(function() {
+        $('.overlay').addClass("overlay-show");
+        $('.menu-wrap').addClass("menu-wrap-show");
+        return false;
+    });
+    $("#nav-close").click(function() {
+        $('.overlay').removeClass("overlay-show");
+        $('.menu-wrap').removeClass("menu-wrap-show");
+    });
+    $('.overlay').click(function(){
+        $('.overlay').removeClass("overlay-show");
+        $('.menu-wrap').removeClass("menu-wrap-show");
+    });
+    $('#nav ul li').each(function() {
+        if ($(this).children('ul').length > 0) {
+            $(this).addClass('parent');
+            $(this).prepend( "<span><i class='fa fa-angle-right' aria-hidden='true'></i></span>" );
+        }
+    });
+    $('#nav ul li.parent > span').click(function() {
+        $(this).parent().toggleClass('active');
+        $(this).parent().children('ul').slideToggle('fast');
+        $(this).parent().siblings().children().next().slideUp();
+        $(this).parent().siblings().removeClass('active');
+    });
+
+
+    
+});
+    </script>
+
+
+
+
+
+
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/js/jquery.dataTables.min.js"></script>
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/js/dataTables.bootstrap.min.js"></script>
+
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/js/jquery.easing.1.3.min.js" type="text/javascript"></script> 
+<script type="text/javascript" src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/js/jquery.sticky.js"></script> 
+
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/js/jquery.stellar.min.js" type="text/javascript"></script> 
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/js/jquery.mixitup.min.js" type="text/javascript"></script> 
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/js/waypoints.min.js"></script> 
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/js/jquery.counterup.min.js" type="text/javascript"></script> 
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/js/wow.min.js" type="text/javascript"></script> 
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/js/owl.carousel.min.js" type="text/javascript"></script> 
+
+    <script async defer id="analytics-script" data-website-id="7403330c-80d9-4ba0-a8a3-6db4c4a7d0f0" data-old-count="2578400" src="https://webanalytics.rajasthan.gov.in/script.js"></script>
+    <link href="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/aembootstrap/clientlib/css/visitorcounter.css" rel="stylesheet" type="text/css">
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/aembootstrap/clientlib/js/visitorcounter.js"> </script> 
+<script>
+            $(document).ready(function() {
+    $(".home-slide").owlCarousel({
+        // Most important owl features
+        items: 1,
+        itemsCustom: false,
+        itemsDesktop: [1199, 1],
+        itemsDesktopSmall: [980, 1],
+        itemsTablet: [768, 1],
+        itemsTabletSmall: false,
+        itemsMobile: [479, 1],
+        singleItem: false,
+        startDragging: true,
+        navigation: true,
+        autoPlay:true
+    });
+
+});
+          </script>
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/js/jquery.simplyscroll.js"></script>
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/js/jquery.progresstracker.js" type="text/javascript"></script> 
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/js/custom.js" type="text/javascript"></script> 
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/js/theme-changer.js" type="text/javascript"></script>
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/clientlib/js/scrollbar.js"></script> 
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/clientlib/js/menuscroller-jquery.js"></script>
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/js/jquery.flexisel.js"></script>
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/js/mediaelement-and-player.min.js"></script>
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/js/mycustom.js"></script>
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clienlib/js/popup.js"></script>
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/livlihood/clientlibs/js/jquery.prettyPhoto.js"></script> 
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/js/dephome.js"></script>
+<script type="text/javascript" src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/homerajasthan.gov.in/etc/designs/home/clientlib/js/popup.js"></script> <!-- Added by Manish-->
+<script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+
+            // Colorbox Call
+
+            $(document).ready(function(){
+                $("[rel^='lightbox']").prettyPhoto();
+            });
+        </script>
+
+
+
+
+<script>
+
+$('#GalleryStuff li').each(function() {
+    $(this).parent().prepend(this);
+});
+
+$('.ascList').each(function() {
+    $(this).parent().prepend(this);
+});
+
+
+
+</script>
+
+
+
+
+
+
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/js/tablecall.js"></script>
+<script type="text/javascript">
+
+$(window).load(function() {
+
+    $("#flexiselDemo3").flexisel({
+        visibleItems: 7,
+        animationSpeed: 1000,
+        autoPlay: false,
+        autoPlaySpeed: 3000,            
+        pauseOnHover: true,
+            clone:false,
+        enableResponsiveBreakpoints: true,
+        responsiveBreakpoints: { 
+            portrait: { 
+                changePoint:480,
+                visibleItems: 1
+            }, 
+            landscape: { 
+                changePoint:640,
+                visibleItems: 2
+            },
+            tablet: { 
+                changePoint:768,
+                visibleItems: 3
+            }
+        }
+    });
+
+});
+</script>
+
+
+<script>
+  $(function() {
+    $(".videos").click(function () {
+      var theModal = $(this).data("target"),
+      videoSRC = $(this).attr("data-video"),
+      videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+      $(theModal + ' video').attr('src', videoSRCauto);
+      $('#videoModal').on('hidden.bs.modal', function () {
+        $(theModal + ' video').attr('src', '');
+      });
+    });
+  });
+  </script>
+
+
+
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/js/jquery.ui.js"></script> 
+<script src="C:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.inC:/Users/Dell/Downloads/home.rajasthan.gov.in/home.rajasthan.gov.in/etc/designs/home/dep-clientlib/js/tenders.js"></script> 
+
+<script type="text/javascript">
+
+$(document).ready(
+			function() {
+            $('#rpatenders tbody').html($('#rpatenders tbody').find('tr').get().reverse());
+
+				var todayDate = $.datepicker.parseDate("yy-mm-dd",
+						$.datepicker.formatDate('yy-mm-dd', new Date()))
+						.getTime();
+                var table = $('#rpatenders').DataTable({
+					"paging" : true,
+					"ordering" : false,
+					"info" : true,
+					"bFilter" : true
+				});
+
+				/*$("#rpatenders tbody tr").each(
+						function(index) {
+							var data = table.row(index).data();                           
+							var tableDate = $.datepicker.parseDate("dd/mm/yy",
+									data[3]).getTime();
+							if (todayDate > tableDate) {
+								$(this).remove();
+							}
+						}); */
+
+
+			});
+
+$(document).ready(function(){
+$( "#tendersnew" ).load( "/content/homeportal/en/rajasthanpoliceacademy/latestnews.html #rpatenders",function(){
+		$('#rpatenders tbody').html($('#rpatenders tbody').find('tr').get().reverse());
+		var table = $('#rpatenders').DataTable({
+            		"searching": false,
+            		"lengthChange": false,
+            		"info":false,
+            		"paging": false,
+					"columnDefs" : [ {
+						"searchable" : true,
+						"orderable" : false,
+						"targets" : '_all'
+					} ],
+					"order" : []
+				});
+
+
+				table.on('order.dt search.dt', function() {
+					table.column(0, {
+						search : 'applied',
+						order : 'applied'
+					}).nodes().each(function(cell, i) {
+						cell.innerHTML = i + 1;
+					});
+				}).draw();
+
+
+    	var todayDate = $.datepicker.parseDate("yy-mm-dd",
+						$.datepicker.formatDate('yy-mm-dd', new Date()))
+						.getTime();
+
+				$("#rpatenders tbody tr").each(
+						function(index) {
+							var data = table.row(index).data();                           
+							var tableDate = $.datepicker.parseDate("dd/mm/yy",
+									data[3]).getTime();
+							if (todayDate > tableDate) {
+								$(this).remove();
+							}
+						});
+
+ 	});  
+
+});
+
+
+</script>
+ <script type="text/javascript">
+$(document).ready(function(){
+ $('#submit-2').click(function(){
+		$('#searchform').trigger('submit');
+
+    });
+$('#search-input').keyup( function(e) {
+
+            //if enter is pressed
+            if(e.keyCode == 13) {
+
+                $('#searchform').trigger('submit');
+
+            }
+
+
+        });
+
+     });
+</script>
+<script>
+    (function ($) {
+                $.fn.dtree = function (options) {
+                    var $this = this,
+                        settings = $.extend({
+                            isHorizontal: false,
+                            customTemplate: false,
+                            gutter: 20,
+                            zoom: true,
+                            placeholderImg: "",
+                            isCollapsible: true,
+                            searchbox: true
+                        }, options),
+                        _parents = [],
+                        _nodeDims = {},
+                        _iniScale = 0,
+                        _domNodes = {},
+                        _dtreeID = $this.attr("id") || "dtree" + Math.round(Math.random() * 100),
+                            init = {
+                                logger: function () {
+                                    _parents = calc.getParentChildObj();
+                                    _nodeDims = init.getNodeDimensions();
+                                    
+                                    $this.html(init.buildNodes(_nodeDims));
+                                    init.rearrangeDom();
+                                    init.setSelectors();
+                                    console.log(settings.nodes, _nodeDims, _parents);
+                                },
+                                buildNodes: function (nodeDims) {
+                                    if (settings.customTemplate) {
+                                        
+                                    } else {
+                                        var activepid = _parents.rootNode.id,
+                                            pNodes = _parents.listParents.length,
+                                            ndPipe = [activepid],
+                                            nodeHTML = "<div class=\"dtree-wrapper " + (settings.isHorizontal ? 'dtree-x' : '') + "\">";
+                                        
+                                        if (settings.searchbox) {
+                                            nodeHTML += "<div class=\"dtree-searchbox\"><input type=\"text\" class=\"dtree-search-control\"><i class=\"dtree-search-icon\"></i>" +
+                                                "<ul class=\"dtree-search-list\"></ul>" +
+                                                    "</div>";
+                                        }
+                                        
+                                        
+                                        nodeHTML += "<div class=\"dtree-node-wrapper\" id=\"" + _dtreeID + "_node_0\" style=\"width:100%\">" +
+                                            "<div class=\"dtree-node-cell\">" +
+                                                "<div class=\"dtree-node-main\">" +
+                                                    "<div class=\"dtree-node \" style=\"margin:" + settings.gutter + "px\">" +
+                                                        "<div class=\"dtree-img\"><img src=\"" + (_parents.rootNode.img || settings.placeholderImg) + "\"></div>" +
+                                                            "<div class=\"dtree-name\">" + _parents.rootNode.name + "<span class=\"sub\">" + _parents.rootNode.txt + "</span></div>" +
+                                                                (settings.isCollapsible ? "<div class=\"node-collapse\" data-dtree-collpase-node=\"#" + _dtreeID + "_node_" + activepid + "\"  style=\"bottom : " + settings.gutter / 2 + "px\"></div>" : "");
+                                        nodeHTML += (settings.isHorizontal) ? "<i class=\"dtree-branch liney\" style=\"height:50%; top:50%; left: " + settings.gutter + "px; width: calc(100% - " + settings.gutter + "px)\"></i>" : "<i class=\"dtree-branch liney\" style=\"width:50%; left:50%; top: " + settings.gutter + "px; height: calc(100% - " + settings.gutter + "px)\"></i>";
+                                        nodeHTML += "</div></div><div class=\"dtree-child-container\" id=\"" + _dtreeID + "_node_" + activepid + "\"></div></div></div>";
+                                        
+                                        while (pNodes && ndPipe.length) {
+                                            activepid = ndPipe.shift();
+                                            var childNdsObj = _parents.parentObj[_parents.listParents.indexOf(activepid)];
+                                            if (!childNdsObj) {
+                                                continue;
+                                            }
+                                            var childNds = childNdsObj.childNodes;
+                                            
+                                            nodeHTML += "<div class=\"dtree-node-wrapper \" id=\"" + _dtreeID + "_parent_" + activepid + "\"  >";
+                                            
+                                            for (var i = 0; i < childNds.length; i++) {
+                                                var isParent = (_parents.listParents.indexOf(childNds[i].id) !== -1),
+                                                    hasSiblings = childNds.length - 1,
+                                                        xRight = (i == 0) ? "0" : "50%",
+                                                            xWidth = "50%",
+                                                                isMiddle = (i > 0 && i < childNds.length - 1),
+                                                                    imgSrc = childNds[i].img || settings.placeholderImg,
+                                                                        parObj = _parents.parentObj[_parents.listParents.indexOf(childNds[i].id)],
+                                                                            isCollapsedNode = childNds[i].isCollapsed;
+                                                
+                                                if (isMiddle) {
+                                                    xWidth = "100%";
+                                                    xRight = "0";
+                                                }
+                                                settings.nodes[_parents.nodeById[childNds[i].id]].lvl = 1 + settings.nodes[_parents.nodeById[activepid]].lvl;
+                                                // width: 100/childNds.length
+                                                nodeHTML += "<div class=\"dtree-node-cell \"  >" +
+                                                    "<div class=\"dtree-node-main\">" +
+                                                        "<div class=\"dtree-node "+(isCollapsedNode && "dtree-collapsed")+"\" style=\"margin:" + settings.gutter + "px\">" +
+                                                            "<div class=\"dtree-img\"><img src=\"" + imgSrc + "\"></div>" +
+                                                                "<div class=\"dtree-name\">" + childNds[i].name + "<span class=\"sub\">" + childNds[i].txt + "</span></div>";
+                                                nodeHTML += isParent ? (settings.isCollapsible ? "<div class=\"node-collapse\" data-dtree-collpase-node=\"#" + _dtreeID + "_node_" + childNds[i].id + "\" style=\"bottom : " + settings.gutter / 2 + "px\"></div>" : "") : "";
+                                                
+                                                if (settings.isHorizontal) {
+                                                    nodeHTML += (!isParent && parObj ? (parObj.childNodes.length > 1) : parObj) ? "<i class=\"dtree-branch liney\" ></i>" : "<i class=\"dtree-branch liney\" style=\"width:calc(100% - " + settings.gutter + "px); left: 0\"></i>";
+                                                    
+                                                } else {
+                                                    nodeHTML += (!isParent && parObj ? (parObj.childNodes.length > 1) : parObj) ? "<i class=\"dtree-branch liney\"></i>" : "<i class=\"dtree-branch liney\" style=\"height:calc(100% - " + settings.gutter + "px); top: 0\"></i>";
+                                                    nodeHTML += hasSiblings ? "<i class=\"dtree-branch linex\" style=\"right: " + xRight + "; width: " + xWidth + "\"></i>" : "";
+                                                }
+                                                
+                                                nodeHTML += "</div></div>" +
+                                                    ((hasSiblings && (settings.isHorizontal)) ? "<i class=\"dtree-branch linex\" style=\"bottom: " + xRight + "; height: " + xWidth + "\"></i>" : "") +
+                                                        "<div class=\"dtree-child-container  "+(isCollapsedNode && "dtree-target-collapsed")+"\" id=\"" + _dtreeID + "_node_" + childNds[i].id + "\"></div></div>";
+                                                ndPipe.push(childNds[i].id);
+                                            }
+                                            nodeHTML += "</div>";
+                                            pNodes--;
+                                        }
+                                        
+                                        
+                                        return nodeHTML + "</div>";
+                                    }
+                                },
+                                rearrangeDom: function () {
+                                    var $parents = $this.find(".dtree-node-wrapper").not("#" + _dtreeID + "_node_0"),
+                                        $childs = $this.find(".dtree-child-container");
+                                    
+                                    $parents.each(function () {
+                                        var custNodeId = $(this).attr("id").split("_"),
+                                            cutNode = $(this).detach(),
+                                            pasteNode = $childs.filter("#" + _dtreeID + "_node_" + custNodeId[custNodeId.length - 1]);
+                                        if (pasteNode) {
+                                            cutNode.appendTo(pasteNode);
+                                        }
+                                    });
+                                },
+                                getNodeDimensions: function () {
+                                    $('body').append("<div id=\"tempNode\"><div class=\"dtree-node\"><div class=\"dtree-img\"><img src=\"https://vrfox.in/acb-dep-v2/images/user.png\"></div> <div class=\"dtree-name\"></div><span class=\"dtree-branch\"><i></i><i></i></span></div></div>");
+                                    var $tempNode = $("#tempNode");
+                                    var tw = $tempNode.children().eq(0).outerWidth(true),
+                                        th = $tempNode.children().eq(0).outerHeight(true);
+                                    
+                                    $tempNode.remove();
+                                    return {
+                                        nodeWidth: tw,
+                                        nodeHeight: th
+                                    };
+                                },
+                                setSelectors: function () {
+                                    _domNodes.nodes = $this.find(".dtree-node");
+                                    _domNodes.nodeContainers = $this.find(".dtree-node-main");
+                                    _domNodes.nodeCollapseToggles = $this.find(".node-collapse");
+                                    _domNodes.searchControl = $this.find(".dtree-search-control");
+                                    _domNodes.searchResults = $this.find(".dtree-search-list");
+                                    
+                                    _domNodes.nodeCollapseToggles.on("click", handlers.onToggleCollapseClick);
+                                    _domNodes.searchControl.on("keyup", handlers.onSearchKeyup);
+                                    _domNodes.searchControl.on("blur", handlers.onSearchBlur);
+                                    $this.on("mousedown", handlers.onBoardMouseDown);
+                                    $this.on("mouseup", handlers.onBoardMouseUp);
+                                },
+                                buildSearchResults: function (listObj, skey) {
+                                    var listHTML = "";
+                                    for (var i = 0; i < listObj.length; i++) {
+                                        // var si = listObj[i].name.indexOf(skey) !== -1 ? listObj[i].name.indexOf(skey) : listObj[i].txt.indexOf(skey),
+                                        //     name = listObj[i]
+                                        
+                                        listHTML += "<li>" + listObj[i].name + "</li>";
+                                    }
+                                    
+                                    _domNodes.searchResults.html(listHTML);
+                                }
+                            },
+                                handlers = {
+                                    onToggleCollapseClick: function (e) {
+                                        var $thisBtn = $(this),
+                                            $target = $($thisBtn.attr("data-dtree-collpase-node"));
+                                        $thisBtn.parent().toggleClass("dtree-collapsed");
+                                        $target.toggleClass("dtree-target-collapsed");
+                                    },
+                                    onSearchKeyup: function () {
+                                        var searchKey = $(this).val(),
+                                            resultSet = [];
+                                        
+                                        resultSet = settings.nodes.filter(function (i, n) {
+                                            return (i.name.indexOf(searchKey) !== -1 || i.txt.indexOf(searchKey) !== -1);
+                                        });
+                                        
+                                        init.buildSearchResults(resultSet, searchKey);
+                                    },
+                                    onSearchBlur: function () {
+                                        _domNodes.searchResults.html("");
+                                    },
+                                    onBoardMouseDown: function (e) {
+                                        _iniScale = e.offsetX;
+                                        $this.on("mousemove", handlers.onBoardMouseMove);
+                                    },
+                                    onBoardMouseUp: function (e) {
+                                        $this.off("mousemove", handlers.onBoardMouseMove);
+                                    },
+                                    onBoardMouseMove: function (e) {
+                                        e.preventDefault();
+                                        var pleft = _iniScale - e.offsetX;
+                                        $this.children().eq(0).scrollLeft($this.children().eq(0).scrollLeft() + pleft);
+                                    },
+                                    onScroll: function () {
+                                        
+                                    },
+                                    onWheel: function (event) {
+                                        return;
+                                        event.preventDefault();
+                                        _iniScale = 0;
+                                        console.log(event.originalEvent);
+                                        if (!event.originalEvent.wheelDelta) {
+                                            if (event.deltaY < 0) {
+                                                _iniScale += 0.08;
+                                            } else {
+                                                _iniScale -= 0.05;
+                                            }
+                                        } else {
+                                            if (event.originalEvent.wheelDelta > 0 || event.originalEvent.detail < 0) {
+                                                _iniScale + 0.08;
+                                            } else {
+                                                _iniScale -= 0.05;
+                                            }
+                                        }
+                                        
+                                        $this.children().eq(0).css("transform", "scale(" + _iniScale + ")");
+                                    }
+                                },
+                                    calc = {
+                                        getParentChildObj: function () {
+                                            var nodes = settings.nodes,
+                                                keyNodeId = {},
+                                                parents = nodes.map(function (i, n) {
+                                                    var childNd = nodes.filter(function (k) {
+                                                        return k.pid == i.id
+                                                    });
+                                                    keyNodeId[i.id] = n;
+                                                    return {
+                                                        pid: i.id,
+                                                        pname: i.name,
+                                                        childNodes: childNd
+                                                    }
+                                                }).filter(function (i) {
+                                                    return i.childNodes.length
+                                                });
+                                            
+                                            return {
+                                                parentObj: parents,
+                                                listParents: parents.map(function (i) {
+                                                    return i.pid
+                                                }),
+                                                rootNode: nodes.filter(function (i) {
+                                                    return i.pid == 0
+                                                })[0],
+                                                nodeById: keyNodeId
+                                            };
+                                        }
+                                    };
+                    
+                    init.logger();
+                    return $this;
+                }
+            }(jQuery));
+</script>
+
+    
+</body>
+</html>

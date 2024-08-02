@@ -1,0 +1,140 @@
+.popup-overlay{
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    width:100%;
+    height:100vh;
+    background-color:rgba(0,0,0,0.75);
+    display: none;
+    z-index: 999999;
+}
+.popup-wrap{
+    position: relative;
+    max-width:800px;
+    /*max-width: 467px;*/
+    margin:0 auto;
+}
+
+.modal-popup{
+    width: 100%;
+    margin: 0 auto;
+    height: 600px;
+    padding: 0;
+    top: 0;
+    margin-top: 10px;
+    max-width: 1000px;
+    /*max-width: 445px;*/
+    position: relative;
+}
+.modal-popup img{
+    max-width:100%;
+}
+.popup-close{
+    position: absolute;
+    top: -9px;
+    right: -7px;
+    z-index: 99999;
+    width: 35px;
+    height: 35px;
+    display: block;
+}
+.popup-close:hover{
+    color:#fff;
+}
+.medical-and-health-advt1
+{
+
+    max-height:605px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+#popupimage1,#popupimage2,#popupimage3,#popupimage4
+{
+    display:none;
+}
+
+.popupimage1 .popup-overlay #popupimage1,.popupimage2 #popupimage2,.popupimage3 #popupimage3,.popupimage4 #popupimage4
+{
+    display:block;
+}
+.popupimage1 #popupimage1 img,.popupimage2 #popupimage2,.popupimage3 #popupimage3,.popupimage4 #popupimage4
+{
+    display:block!important;
+}
+.popupimage1 #popupimage1 img,.popupimage2 #popupimage2 img,.popupimage3 #popupimage3 img,.popupimage4 #popupimage4 img
+{
+   max-width: 800px;
+}
+
+#pop-upmodel .modal-header .close {
+    margin-top: -2px;
+    position: absolute;
+    top: 0;
+    right: 7px;
+    opacity: 1.0;
+    z-index: 99;
+    font-size: 31px;
+}
+#pop-upmodel .modal-header
+{
+    min-height:inherit;
+    padding:0;
+}
+#pop-upmodel .modal-body {
+    position: relative;
+    padding: 0;
+}
+
+@media (min-width: 768px)
+    {
+#pop-upmodel .modal-dialog {
+    width: 850px;
+    margin: 30px auto;
+}
+
+}
+
+@media (max-width: 768px)
+    {
+
+.modal-popup img {
+    max-width: 100%!important;
+    }
+    .popup-overlay
+{
+    padding: 10px;
+    box-sizing: border-box;
+}
+}
+
+.mySlides {display: none;}
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+.dot {
+    display: none;
+}
+
+/* Fading animation */
+.fadeslide {
+  -webkit-animation-name: fadeslide;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fadeslide;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fadeslide {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fadeslide {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
